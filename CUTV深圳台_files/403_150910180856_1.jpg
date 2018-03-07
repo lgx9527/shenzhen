@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>404 Not Found - CUTV 深圳台</title>
+<meta name="keywords" content="中国时刻,视频分享,深圳电视台,深圳卫视,第一现场" />
+<meta name="description" content="中国时刻新媒体独创以网络视频新闻为核心,深圳电视台,深圳广播电影电视集团的官方网,包含视频直播,深圳卫视,第一现场,我播我报,电视剧,网络电视台等丰富多彩的节目。" />
+<meta name="author" content="Copyright@中国时刻网、深圳广播电影电视集团" />
+<meta name="copyright" content="版权声明：视频内容属中国时刻、深圳广电集团原创转载请严格注明出处并做链接" />
+<link rel="shortcut icon" href="http://www.s1979.com/favicon.ico" type="image/x-icon" />
+<script type="text/javascript">
+/*
+ * 收藏和设为首页
+ * @author abel chu
+ * Demo: 
+ * <a href="javascript:void(0);" onclick="QT.Browser.addBookMark('http://www.s1979.com/')">加入收藏</a>;
+ * <a href="javascript:void(0);" onclick="QT.Browser.addHomePage('http://www.s1979.com/')">设为首页</a>;
+ */
+(function(){
+if ( !window.QT ) QT = {};
+if ( !QT.Browser ) QT.Browser = QT.BORWSER = {};
+		QT.Browser.addHomePage = function(url){
+			if(!!(window.attachEvent && !window.opera)){
+					document.body.style.behavior = 'url(#default#homepage)';
+					document.body.setHomePage(url);
+				}else{
+				  if(window.clipboardData && clipboardData.setData){
+				clipboardData.setData("text", url);
+			  }else{
+				alert( '您的浏览器不允许脚本访问剪切板，请手动设置~' );
+				return;
+			  }
+			  alert('网址已经拷贝到剪切板,请您打开浏览器的选项,\n把地址粘到主页选项中即可~');
+			}
+			return true;		
+		};
+	QT.Browser.addBookMark = function(url,title){
+		var ctrl = (navigator.userAgent.toLowerCase()).indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL';					
+		try{
+					window.external.addFavorite(url,title || document.title);
+			}catch(e){
+				try{
+					window.sidebar.addPanel(url,title || document.title);
+				}catch(e){
+					alert('您可以尝试通过快捷键' + ctrl + ' + D 添加书签~');
+				}
+			}		
+		};
+})();
+</script>
+<style type="text/css">
+*{padding:0;margin:0;}
+html{color:#252525;overflow-y:scroll;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,div,dl,dt,dd,ul,ol,li,span,em,pre,fieldset,lengend,button,input,textarea,form,th,td{padding:0;margin:0;}
+body{line-height:1.5;/*padding-top:30px;*/font:12px/1.5 '\5b8b\4f53',Tahoma,Arial,Helvetica,sans-serif;word-wrap:break-word;word-break:break-all;background:#fff;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+table{margin:auto;font-size:100%;text-align:left;border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;list-style-type:none;}
+a img,img{vertical-align:middle;border:none;}
+em{font-style:normal;}
+
+/* a style */
+a{color:#003f76;text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{color:#d80000;text-decoration:underline;}
+a:active{color:#d80000;}
+a:focus{outline:none;}
+a em{cursor:pointer;}
+.tdu,.tdu a{text-decoration:underline;}
+.tdn,.tdn a{text-decoration:none;}
+
+/* form style */
+input,textarea,select,button{padding:0;margin:0;font-size:100%;vertical-align:middle;outline:none;background:inherit;}
+.rad{width:13px;height:13px;margin-right:5px;vertical-align:text-bottom;}
+.cp,a em{cursor:pointer;}
+
+/* clearfix style */
+.clear{clear:both;height:0;visibility:hidden;overflow:hidden;}
+.clearfix:after{display:block;clear:both;height:0;content:"\20";visibility:hidden;overflow:hidden;}
+.clearfix{display:block;*zoom:1;}
+*html .clearfix {height:1%;}
+
+/* class style */
+.boxer{width:990px;margin-left:auto;margin-right:auto;overflow:hidden;}
+
+/* float style */
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.fn{float:none;}
+.rel{position:relative;} 
+
+/* display style */
+.db{display:block;} 
+.dn{display:none;} 
+.di{display:inline;} 
+.dib{display:inline-block;} 
+.ovh{overflow:hidden;}
+
+/* padding style */
+.pl5{padding-left:5px;}
+.pl10{padding-left:10px;}
+.pl15{padding-left:15px;}
+.pl20{padding-left:20px;}
+.pr5{padding-right:5px;}
+.pr10{padding-right:10px;}
+.pr15{padding-right:15px;}
+.pr20{padding-right:20px;}
+.plr5{padding-left:5px;padding-right:5px;}
+.plr10{padding-left:10px;padding-right:10px;}
+.plr15{padding-left:15px;padding-right:15px;}
+.plr20{padding-left:20px;padding-right:20px;}
+.pt5{padding-top:5px;}
+.pt10{padding-top:10px;}
+.pt15{padding-top:15px;}
+.pt20{padding-top:20px;}
+.pb5{padding-bottom:5px;}
+.pb10{padding-bottom:10px;}
+.pb15{padding-bottom:15px;}
+.pb20{padding-bottom:20px;}
+.ptb5{padding-top:5px;padding-bottom:5px;}
+.ptb10{padding-top:10px;padding-bottom:10px;}
+.ptb15{padding-top:15px;padding-bottom:15px;}
+.ptb20{padding-top:20px;padding-bottom:20px;}
+
+/* margin style */
+.ml5{margin-left:5px;}
+.ml10{margin-left:10px;}
+.ml15{margin-left:15px;}
+.ml20{margin-left:20px;}
+.mr5{margin-right:5px;}
+.mr10{margin-right:10px;}
+.mr15{margin-right:15px;}
+.mr20{margin-right:20px;}
+.mlr5{margin-left:5px;margin-right:5px;}
+.mlr10{margin-left:10px;margin-right:10px;}
+.mlr15{margin-left:15px;margin-right:15px;}
+.mlr20{margin-left:20px;margin-right:20px;}
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mb5{margin-bottom:5px;}
+.mb10{margin-bottom:10px;}
+.mb15{margin-bottom:15px;}
+.mb20{margin-bottom:20px;}
+.mtb5{margin-top:5px;margin-bottom:5px;}
+.mtb10{margin-top:10px;margin-bottom:10px;}
+.mtb15{margin-top:15px;margin-bottom:15px;}
+.mtb20{margin-top:20px;margin-bottom:20px;}
+
+/* color style */
+.white{color:#fff;} 
+.red{color:#f00;} 
+.green{color:#390} 
+.black{color:#000;} 
+.gray{ color:#999;}
+.darkgray{color:#666;} 
+.orange{color:#f60;} 
+.blue{color:#06c;}
+
+/* text align style */
+.tal{text-align:left;} 
+.tar{text-align:right;} 
+.tac{text-align:center;}
+.tlr{text-align:justify;text-justify:inter-ideograph;}
+.vat{vertical-align:top;} 
+.vam{vertical-align:middle;} 
+.vab{vertical-align:bottom;}
+.ti2em{text-indent:2em !important;}
+.tlf{table-layout:fixed !important;}
+.nowrap{white-space:nowrap !important;;word-break:normal !important;}
+
+/* font-size - font-famiyl - font-weight */
+.f14{font-size:14px;} 
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f20{font-size:20px;}
+.f24{font-size:24px;}
+.far{font-family:Arial;/*Arial*/}
+.fvd{font-family:Verdana;/*Verdana*/} 
+.fst{font-family:'\5B8B\4F53';/*SimSun*/} 
+.fht{font-family:'\9ED1\4F53';/*SimHei*/}
+.fyh{font-family:'\5fae\8f6f\96c5\9ed1';/*Microsoft Yahei*/} 
+.fb{font-weight:bold;} 
+.fn{font-weight:normal;}
+
+.topbar,.morelink,.logo-ico,.wap-ico,.mob-ico,.etv-ico,.site-logo,.site-search,.site-menus,.article-title,.list-column,.site-menus dd a.young,.footer .footer-nav{background:url(http://image.s1979.com/404/body-bg.png) no-repeat;}
+
+/* topbar style */
+.topbar{width:100%;height:30px;line-height:30px;color:#cdcdcd;background-repeat:repeat-x;background-position:0 -180px;overflow:hidden;}
+.topbar a{display:inline-block;}
+.topbar .mr8{margin-right:8px;}
+.topbar .userarea{color:#666;}
+.topbar .userarea a.red{font-family:Arial;}
+.topbar .userarea .mlr5{width:1px;margin-left:4px;margin-right:4px;color:#cdcdcd;}
+.topbar .logo-ico{height:30px;padding-left:17px;margin-right:8px;background-position:-340px -442px;}
+.topbar .wap-ico{height:30px;padding-left:10px;margin-right:8px;background-position:0 -322px;}
+.topbar .mob-ico{height:30px;padding-left:10px;margin-right:8px;background-position:0 -272px;}
+.topbar .etv-ico{height:30px;padding-left:26px;margin-right:8px;background-position:0 -448px;}
+.topbar .nowtime{display:inline-block;height:30px;margin-left:10px;}
+.topbar .morebox{position:relative;z-index:9999;display:inline-block;width:50px;height:30px;}
+.topbar .morebox .morelink{display:inline-block;width:40px;height:30px;padding-left:10px;background-position:0 -365px;}
+.topbar .morebox .selected{background-position:-100px -365px;}
+.topbar .morebox .morelist{display:none;position:absolute;right:0;top:30px;width:345px;height:47px;line-height:23px;padding:5px 10px;border:#e2e2e2 solid 1px;border-top:none;background-color:#f4f4f4;}
+.topbar .morebox .morelist a{margin-right:10px;}
+.topbar .di,.topbar .di a{color:#d80000;}
+.topbar .di a{padding-left:25px;background:url(http://image.s1979.com/404/dv-logo-s.png) no-repeat 0 48%;}
+.navbar{height:29px;line-height:29px;padding:5px 0;color:#ccc;font-size:13px;overflow:hidden;}
+.navbar a{display:inline-block;margin-right:7px;}
+.navbar b{font-weight:normal;}
+
+/* footer style */
+.footer{height:190px;padding-top:10px;text-align:center;background-color:#fff;}
+.footer,.footer a{color:#666;}
+.footer a:hover{color:#d80000;text-decoration:underline;}
+.footer .footer-nav{height:29px;line-height:29px;padding:5px 0;background-repeat:repeat-x;background-position:0 -230px;overflow:hidden;}
+.footer .footer-nav a{display:inline-block;margin:0 5px;}
+.footer .orglink{height:49px;padding:10px 0;overflow:hidden;}
+.footer .orglink img{margin:0 2px;}
+.footer .copyright{line-height:21px;padding-bottom:10px;font-family:Arial;}
+
+/*adsense style*/
+.w990{clear:both;width:990px;margin-left:auto;margin-right:auto;}
+
+/*404 error style*/
+.error-box{width:575px;height:210px;line-height:25px;padding:104px 0 0 183px;margin-left:auto;margin-right:auto;font-family:'\5fae\8f6f\96c5\9ed1';/*Microsoft Yahei*/background:url(http://image.s1979.com/404/404bg.png) no-repeat 50% 0;overflow:hidden;}
+.error-box .error{height:135px;padding-left:100px;}
+.error-box .error h1{height:41px;line-height:41px;font-size:20px;}
+.error-box .error a{display:inline-block;margin-right:12px;color:#ad0000;}
+.error-box .error a:hover{color:#d80000;}
+.error-box .more{height:75px;}
+.error-box .more a{display:inline-block;margin-right:12px;color:#ad0000;}
+.error-box .more a:hover{color:#d80000;}
+.error-box .more .static-text{display:inline-block;width:110px;}
+.error-adv{text-align:center;}
+</style>
+</head>
+<body>
+
+<!--public header begin-->
+<div class="topbar clearfix">
+<div class="w990">
+	<div class="userlog fr"><a href="http://big5.s1979.com/site/www.s1979.com/" target="_blank">繁体版</a></div>
+	 <a class="logo-ico" href="http://www.s1979.com/" target="_blank">CUTV深圳台</a>
+</div>
+</div>
+<!--public header end-->
+
+
+<!--404 error begin-->
+<div class="boxer clearfix">
+     <div class="error-box clearfix">
+	      <div class="error clearfix">
+			  <h1>很抱歉，您所浏览的页面暂时不能访问！</h1>
+
+		  </div>
+		  <div class="more clearfix">
+			  <p><span class="static-text">直接访问</span><strong><a href="http://www.s1979.com/">CUTV 深圳台</a></strong></p>
+			  <p><span class="static-text">去其他地方看看</span> <a href="http://www.s1979.com/tv/sztv.shtml">深圳卫视直播</a><a href="http://www.s1979.com/news/">新闻频道</a><a href="http://www.s1979.com/yule/">娱乐频道</a><a href="http://www.s1979.com/caijing/">财经频道</a><a href="http://www.s1979.com/shenzhen/">深圳频道</a></p>
+		  </div>
+	 </div>
+</div>
+
+<div class="boxer mt10 clearfix">
+	 <div class="error-adv tac clearfix">
+<script type="text/javascript">
+    /*404页面，980*250 创建于 2014-10-10*/
+    var cpro_id = "u1751914";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+	 </div>
+</div>
+
+<!--404 error end-->
+
+
+<!--public footer begin-->
+<div class="footer boxer clearfix">
+
+	
+	<p class="copyright clearfix">Copyright &copy; 2009- 2013 Shenzhen Media Group, All Rights Reserved. <br /> <a href="http://www.szmg.com.cn/" target="_blank">深圳广播电影电视集团</a><br />广东省通信管理局备案：<a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">粤ICP备07068002</a>　信息网络传播视听节目许可证号：1907177</p>
+</div>
+<div style="display:none">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7845bd9098cce58704acacc47fe51c7a' type='text/javascript'%3E%3C/script%3E"));
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+try {
+var pageTracker = _gat._getTracker("UA-11065743-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<script language="javascript" src="http://count5.51yes.com/click.aspx?id=59821788&logo=1" charset="gb2312"></script>
+</div>
+<!--public footer end-->
+
+</body>
+</html>

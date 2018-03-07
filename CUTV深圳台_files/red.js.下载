@@ -1,0 +1,13 @@
+if(typeof(track_pool)=="undefined")window.track_pool=[];
+
+//dxp-admaster
+(track_pool[track_pool.length]=new Image()).src='http://map.dxpmedia.com/cm/pixel?dxp_p=miaozhendmp&media=admaster';
+
+//stay time
+
+try { if (m_hdt_pos_id>'') {
+setTimeout("(new Image()).src='http://track.ra.icast.cn/g/?p="+m_hdt_pos_id+"&t=5';",5000);
+setTimeout("(new Image()).src='http://track.ra.icast.cn/g/?p="+m_hdt_pos_id+"&t=15';",15000);
+setTimeout("(new Image()).src='http://track.ra.icast.cn/g/?p="+m_hdt_pos_id+"&t=30';",30000);
+} }catch (e){}
+
